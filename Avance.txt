@@ -1,3 +1,2 @@
-ya estan los modelos
-
-_vamos por los controladores
+me quedé en index
+tengo dos json
