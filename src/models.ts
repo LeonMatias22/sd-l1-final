@@ -25,7 +25,7 @@ class PelisCollection {
     });
   }
 
-  getById(id: number): Promise<Peli> {
+  getById(id: number): Promise<Peli> | undefined{
     return this.getAll().then((pelis) => {
       return pelis.find((peli) => peli.id === id);
     });
