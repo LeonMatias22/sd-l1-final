@@ -1,0 +1,3 @@
+ya estan los modelos
+
+_vamos por los controladores

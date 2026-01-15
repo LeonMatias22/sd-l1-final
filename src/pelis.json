@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "tags": ["ciencia ficción", "suspenso"]
+  },
+  {
+    "id": 2,
+    "title": "Pulp Fiction",
+    "tags": ["crimen", "drama"]
+  },
+  {
+    "id": 3,
+    "title": "The Matrix",
+    "tags": ["acción", "ciencia ficción"]
+  },
+  {
+    "id": 4,
+    "title": "Interstellar",
+    "tags": ["ciencia ficción", "aventura"]
+  },
+  {
+    "id": 5,
+    "title": "The Godfather",
+    "tags": ["crimen", "drama"]
+  },
+  {
+    "id": 6,
+    "title": "Spiderman: Into the Spider-Verse",
+    "tags": ["animación", "super héroes"]
+  },
+  {
+    "id": 7,
+    "title": "Parasite",
+    "tags": ["suspenso", "drama"]
+  },
+  {
+    "id": 8,
+    "title": "Jurassic Park",
+    "tags": ["aventura", "ciencia ficción"]
+  },
+  {
+    "id": 9,
+    "title": "Gladiator",
+    "tags": ["acción", "historia"]
+  },
+  {
+    "id": 10,
+    "title": "The Lion King",
+    "tags": ["animación", "drama"]
+  }
+]
