@@ -3,7 +3,6 @@ import { PelisController } from "./controllers";
 
 function parseaParams(argv) {
   const resultado = minimist(argv);
-
   return resultado;
 }
 
@@ -25,7 +24,11 @@ async function main() {
       const resultado = await controller.get({ id: params._[1] }); // Usá params._[1] para el id
       console.log(resultado);
     } else if (comando === "search") {
-      const resultado = await controller.get(params._[2]);
+      const searchOptions = {
+        title: params.title, // Asignás el título si existe
+        tag: params.tag,     // Asignás el tag si existe
+      };
+      const resultado = await controller.get({ search: searchOptions });
       console.log(resultado);
     } else {
       const resultado = await controller.get();
